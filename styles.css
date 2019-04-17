@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: green;
+}
+.img [src="Rightway Environ header.jpg"]{
+    max-width: 50%
+    height: auto;
+}
+
+.box-column {
+    line-height: 100px;
+    display: flex;
+}
+
+.main-box-column {
+    flex: 2;
+    flex-direction: column;
+}
+ul {
+list-style: none;
+}
+
+li {
+   display:block;
+   float:right;
+   width:75px;
+   height:25px;
+}
+.nav {
+    width: 50px;
+    flex: 1;
+}
+
+.columns-container {
+    background-color: #green;
+    margin: 0 auto 0 auto;
+    
+}
+
+.columns-bottom {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    flex-basis: 50%;
+}
+@media (max-width: 992px) {
+    .columns-container {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0
+    }
+}
+.columns-bottom:nth-child(1) {
+    color: ghostwhite;
+}
+
+.columns-bottom:nth-child(1) {background-color: #000;}
+.columns-bottom:nth-child(2) {background-color: rgb(110, 163, 119);}
+
